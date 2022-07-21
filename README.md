@@ -1,6 +1,4 @@
-# Quote App
-
-#### Quote generator is a platform that allows users to post quotes and react on posted quotes with likes or dislikes.
+# My Portfolio
 
 #### By **Aaron Ekal**
 
