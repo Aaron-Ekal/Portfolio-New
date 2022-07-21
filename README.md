@@ -8,7 +8,7 @@
 
 We all need a good Portfolio<br> <strong>This is where I begin</strong>.
 
-![Landing page screenshot](../Portfolio/img/screenshot.png "")
+![Landing page screenshot](./img/screenshot.png "My Portfolio")
 
 ## Known Bugs
 
