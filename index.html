@@ -23,21 +23,21 @@
             <h1 class="logo">Tech<span>Wise</span> </h1>
             <ul>
                 <li><a href="#">Home</a></li>
-                <li><a href="#">About Us</a></li>
+                <li><a href="#">About Me</a></li>
                 <li><a href="#">Services</a></li>
                 <li><a href="#">Skills</a></li>
-                <li><a href="#">Contact Us</a></li>
-            </ul>
+                <li><a href="#">Contact Me</a></li>
+            
             <a href="#" class="btn">Subscribe Here</a>
         </nav>
         <div class="content">
-          <h4>Hello there, my name is</h4>
+          <h4>Hello there, my Name is</h4>
           <h1>Aaron <span>Ekal</span> </h1>
           <h3>I'm a Web Developer.</span> </h3>
           <div class="newsletter">
             <form>
               <input type="email" name="email" id="mail" placeholder="Enter Your Email">
-              <input type="submit" name="submit" value="Let's Start">
+              <input type="submit" name="submit" value="Let's Start" >
             </form>
           </div>
         </div>
@@ -49,19 +49,45 @@
       <div class="main">
         <img src="img/1.png">
         <div class="about-text">
-          <h2>About Me</h2>
+          <h3>About Me</h3>
           <h5>FullStack <span>Web Developer</span> </h5>
           <p>I am a FullStack Web Developer. No CS background at all. I transitioned from Sales to Coding. I can provide clean code for both front-end and backend. I like to make my website interactive with some bit of animation. Learning everyday to be a better programmer is what makes me wake up. I make my websites accessible to all users, regardless of their device.</p>
-          <button type="button">Let's Talk</button>
+
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+          </div>
+          
+          <div class="tab-contents text-white active-tab" id="skills"> 
+            <ul>
+              <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+              <li><span>Web Development</span><br>Web App Development</li>
+              <li><span>Sales</span><br>Android/iOS Devices at Wholesale & Retail</li>
+            </ul>
+          </div>
+          <div class="tab-contents text-white" id="experience">
+            <ul>
+              <li><span>Jan 2022 - Current</span><br>Designing and Building Web/Apps</li>
+              <li><span>2020 - 2022</span><br>Sales -Tally Solutions</li>
+              <li><span>2019 -2020</span><br>Intern at TechWise</li>
+            </ul>
+          </div>
+          <div class="tab-contents text-white" id="education">
+            <ul>
+              <li><span>2022</span><br>Moringa School - FullStack Software Development</li>
+              <li><span>2015 - 2020</span><br>University of Nairobi - BSc Economics & Statistics</li>
+              <li><span>2013 - 2014</span><br>Chewoyet School</li>
+          </div>
+          <!-- <button type="button">Let's Talk</button> -->
         </div>
       </div>
     </section>
 
     <!-- Service section start -->
-
     <div class="service">
       <div class="title">
-        <h2>Our Services</h2>
+        <h2>My Services</h2>
       </div>
 
       <div class="box">
@@ -80,7 +106,7 @@
           <i class="fa fa-user"></i>
           <h5>Motivation</h5>
           <div class="pra">
-            <p>I like to motivate anybody who would like to venture into anything in life</p>
+            <p>I like to motivate anybody who would like to venture into anything in life <br>Its important to give hope to everyone to just start in anything</p>
             <p style="text-align: center;">
               <a class="button" href="#">Read More</a>
             </p>
@@ -89,14 +115,53 @@
 
         <div class="card">
           <i class="fa fa-bell"></i>
-          <h5>Meeting Deadline</h5>
+          <h5>Sales</h5>
           <div class="pra">
-            <p>Every website should be built with two primary goals: Firstly, it needs to work across all devices. Secondly, it needs to be fast as possible</p>
+            <p>I have done sales for survival. I became good at it. <br>im good at increasing ROI. Evidence is on the companies i've worked for</p>
             <p style="text-align: center;">
               <a class="button" href="#">Read More</a>
             </p>
           </div>
         </div>
+      </div>
+    </div>
+
+
+    <!-- Portfolio -->
+    <div id="portfolio">
+      <div class="title">
+        <h2>My Portfolio</h2>
+        <h5 class="text-center">Get a Glimpse of some of my work for your perusal</h5>
+        
+        <div class="work-list">
+          <div class="work" style="margin-left: 3%;">
+            <img src="img/Photo.png" >
+            <div class="layer text-white">
+              <h3>Social Gallery App</h3>
+              <p>This App lets you see post photos, add, download and share them</p>
+              <a href="https://tellem-galleria.herokuapp.com/"><i class="fa fa-external-link"></i></a>
+            </div>
+          </div>
+
+          <div class="work" style="margin: 1%;">
+            <img src="img/pic11.jpg" >
+            <div class="layer text-white">
+              <h3>Travel Agency App</h3>
+              <p>This App lets you see places that are cheap and you can book your vacation anytime at affordabe cost</p>
+              <a href="https://aaron-ekal.github.io/Topdeck-Safaris/"><i class="fa fa-external-link"></i></a>
+            </div>
+          </div>
+
+          <div class="work" style="margin-right: 3%;">
+            <img src="img/pizza.png" height="285">
+            <div class="layer text-white">
+              <h3>Myra Pizza App</h3>
+              <p>This App lets you order pizza and be delivered to you</p>
+              <a href="https://aaron-ekal.github.io/pizza-ip/"><i class="fa fa-external-link"></i></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btnn">See More</a>
       </div>
     </div>
 
@@ -113,14 +178,14 @@
       <p>Get in touch with me through the following Social Media Accounts</p>
       <div class="social">
         <a href="#"><i class="fa fa-whatsapp"></i></a>
-        <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="https://twitter.com/aaronekal"><i class="fa fa-twitter"></i></a>
         <a href="#"><i class="fa fa-linkedin"></i></a>
         <a href="#"><i class="fa fa-youtube"></i></a>
       </div>
       <p class="end">CopyRight By Aaron Ekal</p>
     </footer>
 
-
+   
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
       integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
@@ -131,5 +196,22 @@
       integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
       crossorigin="anonymous"
     ></script>
+
+     <script>
+      var tablinks = document.getElementsByClassName("tab-links"); 
+      var tabcontents = document.getElementsByClassName("tab-contents"); 
+
+      function opentab(tabname) {
+        for(tablink of tablinks){
+          tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+
+    </script>
   </body>
 </html>
