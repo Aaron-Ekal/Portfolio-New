@@ -1,10 +1,7 @@
 # My Portfolio
-
-#### By **Aaron Ekal**
-
 ## Description
 
-We all need a good Portfolio<br> <strong>This is where I begin</strong>.
+We all need a good Portfolio to describe ourselves<br> <strong></>This is where I begin</></strong>.
 
 ![Landing page screenshot](static/Aaron-Ekal-Portfolio.png "My Portfolio")
 
